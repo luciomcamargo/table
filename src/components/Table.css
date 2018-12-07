@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow");
+.grid-container {
+  display: grid;
+  overflow: auto;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  font-family: "PT Sans", sans-serif;
+  font-size: 25px;
+}
+.grid {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.grid-col {
+  width: 17vw;
+  min-width: 17vw;
+}
+.grid-item:nth-child(even) {
+  background: #ececec;
+}
+
+.grid-item--header {
+  height: 9vh;
+  min-height: 9vh;
+  position: sticky;
+  position: -webkit-sticky;
+  background: #2ea879;
+  top: 0;
+}
+
+.grid-col--fixed-left {
+  position: sticky;
+  left: 0;
+  z-index: 9998;
+  background: #31bc85;
+  width: 15vw;
+  min-width: 15vw;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  font-family: "PT Sans Narrow", sans-serif;
+  font-size: 20px;
+  color: #3e3f3e;
+}
+.grid-item-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  color: #ffffff;
+}
+
+.grid-item--header > p {
+  margin: 0;
+  padding-top: 10px;
+}
