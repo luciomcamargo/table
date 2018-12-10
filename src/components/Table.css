@@ -7,7 +7,7 @@
   width: 100vw;
   color: white;
   font-family: "PT Sans", sans-serif;
-  font-size: 25px;
+  font-size: 1.8vw;
 }
 .grid {
   display: flex;
@@ -45,7 +45,7 @@
   align-items: center;
   height: 15vh;
   font-family: "PT Sans Narrow", sans-serif;
-  font-size: 20px;
+  font-size: 1.4vw;
   color: #3e3f3e;
 }
 .grid-item-col {
@@ -58,9 +58,9 @@
 
 .grid-item--header > p {
   margin: 0;
-  padding-top: 10px;
+  padding-top: 1.5vh;
 }
 .fas {
   color: blue;
-  margin: 5px;
+  margin: 0.3vw;
 }
